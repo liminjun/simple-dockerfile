@@ -5,7 +5,7 @@ FROM ubuntu:14.04
 MAINTAINER liminjun2007@gmail.com
 
 #RUN - Runs a command in the container
-RUN echo "Hello World" > /root/hello_world.txt
+RUN echo "Hello World,Welcome to Docker Hub." > /root/hello_world.txt
 
 #CMD - Identifies the command that should be used by default when running the image as a container.
 CMD ["cat", "/root/hello_world.txt"]
